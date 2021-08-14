@@ -1,0 +1,20 @@
+{
+	"lp": "",
+	"graphs": "",
+	"loglevel": 0,
+	"logfiles": [
+		{
+			"path": "halligalli_full.log",
+			"level": 9
+		},
+		{
+			"path": "halligalli_info.log",
+			"level": 0
+		}
+	],
+	"threadcount": 0,
+	"report_results_scip": false,
+	"report_results_csv": false,
+	"pricing_strategy": 0,
+	"unneeded_constraints_substrings": ["Flssbed"]
+}

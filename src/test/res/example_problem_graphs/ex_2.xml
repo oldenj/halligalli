@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <key id="key0" for="node" attr.name="laufbahngruppe" attr.type="int"/>
+    <key id="key1" for="node" attr.name="laufbahn" attr.type="int"/>
+    <key id="key2" for="node" attr.name="dienstgrad" attr.type="int"/>
+    <key id="key3" for="node" attr.name="zeitscheibe" attr.type="int"/>
+    <key id="key4" for="node" attr.name="status" attr.type="int"/>
+    <key id="key5" for="node" attr.name="ausbildung" attr.type="boolean"/>
+    <key id="key6" for="node" attr.name="netzwerk" attr.type="int"/>
+    <graph edgedefault="directed">
+        <node id="1">
+            <data key="key0">0</data>
+            <data key="key1">0</data>
+            <data key="key2">-2</data>
+            <data key="key3">-1</data>
+            <data key="key4">0</data>
+            <data key="key5">false</data>
+            <data key="key6">2</data>
+        </node>
+        <node id="3">
+            <data key="key0">1</data>
+            <data key="key1">1</data>
+            <data key="key2">0</data>
+            <data key="key3">0</data>
+            <data key="key4">3</data>
+            <data key="key5">false</data>
+            <data key="key6">2</data>
+        </node>
+        <node id="4">
+            <data key="key0">1</data>
+            <data key="key1">1</data>
+            <data key="key2">0</data>
+            <data key="key3">0</data>
+            <data key="key4">4</data>
+            <data key="key5">false</data>
+            <data key="key6">2</data>
+        </node>
+        <node id="5">
+            <data key="key0">1</data>
+            <data key="key1">1</data>
+            <data key="key2">0</data>
+            <data key="key3">0</data>
+            <data key="key4">5</data>
+            <data key="key5">false</data>
+            <data key="key6">2</data>
+        </node>
+        <node id="6">
+            <data key="key0">0</data>
+            <data key="key1">0</data>
+            <data key="key2">35</data>
+            <data key="key3">-1</data>
+            <data key="key4">0</data>
+            <data key="key5">false</data>
+            <data key="key6">2</data>
+        </node>
+        <edge id="1" source="1" target="3"/>
+        <edge id="2" source="3" target="4"/>
+        <edge id="3" source="3" target="5"/>
+        <edge id="4" source="4" target="6"/>
+        <edge id="5" source="5" target="6"/>
+    </graph>
+</graphml>

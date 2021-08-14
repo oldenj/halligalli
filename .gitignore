@@ -1,0 +1,14 @@
+Makefile
+build
+data*
+debug
+release
+bin
+*.log
+*.csv
+/.autotools
+/.cproject
+/.project
+talk_old
+cmake-build-debug
+.idea
